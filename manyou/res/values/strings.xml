@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">漫游家</string>
+    <string name="action_settings">Logout</string>
+    <string name="action_refresh">发计划</string>
+    <string name="action_share">Share</string>
+    <string name="image_not_downloaded">Image not downloaded</string>
+    <string name="the_end">The End</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="refresh_list_failed">网络请求失败</string>
+
+    <string name="donate_url"></string>
+    
+    <string name="inputdate">出发日期 结束日期 </string>
+    
+    <string name="emptyfail_signup">注册 邮箱 密码 别忘记了</string>
+    <string name="invalid_mail_signup">邮箱格式 注意了</string>
+    <string name="short_password_signup">输入6~10位密码</string>
+    <string name="long_password_signup">输入6~10位密码</string>
+    <string name="message_signing_up">注册中…</string>
+    <string name="message_signing_in">登录中…</string>
+    
+    <string name="action_previous">上一步</string>
+    <string name="action_next">下一步</string>
+    <string name="action_finish">完成</string>
+    
+    
+</resources>

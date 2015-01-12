@@ -1,0 +1,39 @@
+/**
+* @Package com.manyou.wei.util    
+* @Title: CacheUtils.java 
+* @Description: TODO
+* @author firefist_wei firefist.wei@gmail.com   
+* @date 2014-9-14 下午10:36:30 
+* @version V1.0   
+*/
+package com.manyou.wei.util;
+
+import android.content.Context;
+import android.os.Build;
+import android.os.Environment;
+
+import java.io.File;
+
+/**
+ * Created by Issac on 7/19/13.
+ */
+public class CacheUtils {
+    /**
+     * Get the external app cache directory.
+     * 
+     * @param context The context to use
+     * @return The external cache dir
+     */
+    public static File getExternalCacheDir(final Context context) {
+        if (hasExternalCacheDir())
+            return context.getExternalCacheDir();
+
+        // Before Froyo we need to construct the external cache dir ourselves
+        final String cacheDir = "/Android/data/" + context.getPackageName() + "/cache/";
+        return new File(Environment.getExternalStorageDirectory().getPath() + cacheDir);
+    }
+
+    public static boolean hasExternalCacheDir() {
+        return Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO;
+    }
+}

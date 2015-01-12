@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:padding="0dp" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        style="@style/AvatarCircle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/gravatar_icon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_avatar"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@id/iv_avatar" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:singleLine="true"
+            android:text="用户昵称"
+            android:textColor="@color/font_1"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_gender"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/tv_name"
+            android:layout_marginBottom="1dp"
+            android:layout_toRightOf="@id/tv_name"
+            android:padding="2dp"
+            android:visibility="gone"
+            android:src="@drawable/bg_icon_man" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            style="@style/NoteText"
+            android:layout_alignLeft="@id/tv_name"
+            android:layout_below="@id/tv_name"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="6dp"
+            android:layout_toLeftOf="@+id/tv_distance"
+            android:singleLine="true"
+            android:text="评论内容"
+            android:textColor="@color/font_2"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            style="@style/NoteText"
+            android:layout_alignBottom="@id/tv_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:text="时间"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/font_2"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

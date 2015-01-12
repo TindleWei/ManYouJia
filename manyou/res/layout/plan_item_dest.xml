@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp" >
+
+    <LinearLayout
+        android:id="@+id/layoutl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_destination"
+            style="@style/NormalText"
+            android:text="目的地"
+            android:textColor="@color/font_2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_city"
+            style="@style/NormalText"
+            android:text=" | 城市"
+            android:textColor="@color/font_2"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_plan_type"
+        style="@style/NormalText"
+        android:layout_below="@id/layoutl"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:text="目的-和谁-寻求"
+        android:textColor="@color/font_2"
+        android:textSize="14sp" />
+
+</RelativeLayout>

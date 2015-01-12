@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dribbble_graphite">#333333</color>
+    <color name="dribbble_pink">#ea4c89</color>
+    <color name="dribbble_green">#8aba56</color>
+    <color name="font_1">#de000000</color>
+    <color name="font_2">#8a000000</color>
+    <color name="font_21">#4a000000</color>
+    <color name="font_3">#deffffff</color>
+    <color name="font_4">#8affffff</color>
+    <color name="md_purple">#9c27b0</color>
+    <color name="md_purple_700">#7b1fa2</color>
+    <color name="viber_purple">#ff7c529e</color>
+    <color name="white">#ffffffff</color>
+    <!-- <color name="viber_purple">#ff704881</color> -->
+    <color name="background_grey">#77cccccc</color>
+    <color name="md_grey">#9e9e9e</color>
+    <color name="transparent">#00000000</color>
+    <color name="profile_avater_cover_selected">#7f000000</color>
+    <color name="profile_avater_cover_normal">#00000000</color>
+    <color name="profile_avater_bg">#7f000000</color>
+    <color name="round_corner_filter_green">#ff66ccff</color>
+    <color name="round_corner_filter_border">#ff000000</color>
+    <color name="bg_headerbar_spinner_normal">@color/transparent</color>
+    <color name="bg_headerbar_spinner_selected">#5f000000</color>
+    <color name="bg_headerbar_spinner_press">#7f000000</color>
+    <color name="table_text">#484848</color>
+    <color name="text">#FCFCFC</color>
+    <color name="edit_text_background_start">#EFF6FF</color>
+    <color name="edit_text_background_end">#FBFDFF</color>
+    <color name="table_text_light">#A6A6A6</color>
+    <color name="default_light_grey">#ffefefef</color>
+
+</resources>

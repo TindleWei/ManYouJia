@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/SubtitleText"
+        android:gravity="center_vertical"
+        android:text="目的"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_for"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal" >
+      
+
+        <RadioButton
+            android:id="@+id/rb_for_1"
+            style="@style/RadioButtonCenter"
+            android:checked="true"
+            android:text="游玩" />
+
+        <RadioButton
+            android:id="@+id/rb_for_2"
+            style="@style/RadioButtonCenter"
+            
+            android:text="休闲" />
+
+        <RadioButton
+            android:id="@+id/rb_for_3"
+            style="@style/RadioButtonCenter"
+            
+            android:text="度假" />
+        
+    </RadioGroup>
+
+    <TextView
+        style="@style/SubtitleText"
+        android:text="和谁"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp" />
+    
+    <RadioGroup
+        android:id="@+id/rg_with"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_with_1"
+            style="@style/RadioButtonCenter"
+            android:checked="true"
+            android:text="自己" />
+
+        <RadioButton
+            android:id="@+id/rb_with_2"
+            style="@style/RadioButtonCenter"
+            android:text="朋友" />
+
+        <RadioButton
+            android:id="@+id/rb_with_3"
+            style="@style/RadioButtonCenter"
+            android:text="情侣" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/SubtitleText"
+        android:text="寻求"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp" />
+    
+    <RadioGroup
+        android:id="@+id/rg_seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_seek_1"
+            style="@style/RadioButtonCenter"
+            android:checked="true"
+            android:text="伙伴" />
+
+        <RadioButton
+            android:id="@+id/rb_seek_2"
+            style="@style/RadioButtonCenter"
+            android:text="建议" />
+        
+        <RadioButton
+            android:id="@+id/rb_seek_3"
+            style="@style/RadioButtonCenter"
+            android:text="搭车" />
+
+    </RadioGroup>
+
+</LinearLayout>

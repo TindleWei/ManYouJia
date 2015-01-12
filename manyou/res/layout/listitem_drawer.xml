@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="50dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="4dp" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/font_3" />
+
+        <TextView
+            android:id="@+id/tv_destination"
+            style="@style/NormalText"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal"
+            android:text="目的地"
+            android:textColor="@color/font_3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_plan_type"
+            style="@style/NormalText"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal"
+            android:text="目的-和谁-寻求"
+            android:textColor="@color/font_3"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_startdate"
+            style="@style/SubtitleText"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="9月1日出发"
+            android:textColor="@color/font_3"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_createTime"
+            style="@style/SubtitleText"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:text="发布时间"
+            android:textColor="@color/font_3"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</FrameLayout>
